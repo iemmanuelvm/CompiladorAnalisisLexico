@@ -1,0 +1,12 @@
+/* ESTE PROGRAMA ES UNA
+MUESTRA DEL LENGUAJE PL/0 */
+const MAX = 5; // Esta es una constante
+var num, suma;
+begin
+read num;
+if num < MAX then
+begin
+suma = num * (10 + 7) / 2;
+write suma
+end
+end.
